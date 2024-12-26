@@ -1,0 +1,360 @@
+.heading .container-fluid {
+    background-image: url('/images/snoheaderw.png');
+    background-position: center;
+    background-size: cover;
+    height: 12vh;
+}
+
+.nav-item {
+    margin-right: 30px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.navbar-nav .nav-link {
+    height: 100%;
+}
+
+.nav-link:hover {
+    background-color: #02a676;
+    color: #fff;
+}
+
+ .hero {
+    position: relative;
+    height: 70vh;
+    width: 100%;
+    background-image: url('/images/rashtrapati-niwas-shimla.jpeg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+.hero h1 {
+    position: absolute;
+    bottom: 1cm;
+    right: 2cm;
+    color: #fff;
+    font-size: 35px;
+    font-family: "Monotype Corsiva", cursive;
+    border: 2px solid #292929;
+    background: #312d2de8;
+
+}
+
+.all {
+    text-align: center;
+    padding-top: 5px;
+    margin: 20px;
+
+}
+
+.one,
+.two,
+.three,
+.four,
+.five,
+.six {
+    text-align: center;
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.35);
+    background-blend-mode: overlay;
+    transition: 0.4s ease;
+    margin-bottom: 20px;
+}
+
+.one:hover,
+.two:hover,
+.three:hover,
+.four:hover,
+.five:hover,
+.six:hover {
+    opacity: 1;
+    transform: scale(1.1);
+
+}
+
+.one {
+    background-image: url(/images/Chandra-Bhaga-river-1.jpg);
+    background-position: center;
+    background-size: cover;
+    opacity: 0.9;
+    height: 30vh;
+    width: 50vh;
+    text-align: center;
+    align-items: center;
+    color: #fff;
+
+}
+
+.two {
+    background-image: url(/images/Table10-Great-Himalayan-National-Park-Kullu-min.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 30vh;
+    width: 50vh;
+    ;
+
+}
+
+.three {
+    background-image: url(/images/Kullu-Dusshra1.-min.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 30vh;
+    width: 50vh;
+
+}
+
+.four {
+    background-image: url(/images/Indian-Food.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 30vh;
+    width: 50vh;
+
+}
+
+.five {
+    background-image: url(/images/mountain-cycling-himachal-3-1024x683.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 30vh;
+    width: 40vh;
+
+}
+
+.six {
+    background-image: url(images/Nako-Monastery-Kinnaur-min.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 30vh;
+    width: 50vh;
+}
+
+.all .btn {
+    border: none;
+    color: #fff;
+    background-color: transparent;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.all .col-md-4 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.first.col-md-4 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 20px;
+}
+
+.all .btn:hover {
+    background-color: transparent;
+    color: #fff;
+}
+.middle {
+    background-color: #292c44;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.middle h1 {
+    color: #fff;
+    font-size: 50px;
+    line-height: 46.751px;
+    font-family: 'Inconsolata', Courier, monospace;
+    box-sizing: border-box;
+    text-align: left;
+    padding-top: 18%;
+    padding-right: 30px;
+    font-weight: 600;
+}
+
+.middle p {
+    color: #fff;
+    padding-top: 20px;
+    width: 90%;
+    line-height: 34px;
+    font-size: 15px;
+    font-family: "Open Sans", Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    box-sizing: border-box;
+    padding-right: 30px;
+}
+
+.middle .container-fluid {
+    height: auto;
+}
+
+.middle img {
+    width: 80%;
+    height: auto; 
+}
+
+@media (max-width: 768px) {
+    .middle h1 {
+        font-size: 35px;
+        padding-top: 10%; 
+    }
+    .middle p {
+        font-size: 14px;
+        padding-right: 15px; 
+    }
+    .middle img {
+        height: auto; 
+    }
+}
+
+.top .round img {
+    height: 100px;
+    border-radius: 60%;
+    text-align: center;
+}
+
+.top .round h1 {
+    font-size: 25px;
+    text-align: left;
+    padding-left: 9px;
+    padding-top: 7px;
+}
+
+.top .btn {
+    text-align: center;
+    padding-bottom: 20px;
+    border: none;
+    background-color: transparent;
+}
+
+.top .btn:hover {
+    background-color: transparent;
+    color: black;
+    border: none;
+}
+
+.top .container {
+    background-color: #fbfbfb;
+    background-position: center center;
+    background-repeat: no-repeat;
+
+}
+
+.top p {
+    font-size: 18px;
+    font-family: "Open Sans", Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    letter-spacing: 0px;
+    font-style: normal;
+    color: #333333;
+    line-height: 1.9;
+
+}
+
+.last .container-fluid{
+    background-color: rgba(255, 255, 255, 0);
+    background-image: url(/images/Towards-Parangla-Pass-Lahaul-Spiti.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 10vh;
+    background-size: cover;
+}
+
+.last a {
+    color: #fff;
+    border: none;
+    font-style: normal;
+    text-decoration: none;
+  
+    
+}
+footer h1{
+    font-size: 30px;
+}
+
+footer h1, footer h2, footer h3, footer h4, footer p {
+    font-style: normal;
+    margin: 0;
+    padding: 10px 0;
+}
+
+
+footer ul {
+    list-style-type: none; 
+    padding-left: 0;
+}
+
+footer a {
+    font-size: 13px;
+    text-decoration: none; 
+    color: inherit; 
+}
+footer a:hover{
+    color: blue;
+}
+
+footer ul li {
+    margin-bottom: 10px;
+}
+.end {
+    font-size: 13px;
+    text-align: center;
+}
+
+.end .container {
+    padding: 0 15px;
+}
+
+.end .row {
+    padding: 0 5%;
+}
+
+.end img {
+    max-width: 100%;
+    height: auto;
+}
+
+.end .col-md-3 img {
+    height: 13vh;
+}
+
+.end p {
+    font-size: 13px;
+    margin: 0 auto;
+    width: 80%;
+}
+.end .col-md-3 img{
+    height: 13vh;
+    padding-right: 150px;}
+    
+@media (max-width: 768px) {
+    .end .col-md-7 {
+        width: 100%;
+        padding: 0 15px;
+    }
+
+    .end p {
+        width: 100%;
+        font-size: 12px;
+    }
+
+    .end img {
+        margin-bottom: 20px;
+    }
+}
+
+@media (max-width: 576px) {
+    .end p {
+        font-size: 11px;
+    }
+}
